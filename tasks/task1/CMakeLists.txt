@@ -13,8 +13,7 @@ list(APPEND CMAKE_PREFIX_PATH ${CMAKE_BINARY_DIR})
 
 add_executable(${PROJECT_NAME}
   ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp
-  ${CMAKE_CURRENT_SOURCE_DIR}/list_internal.cpp 
-  ${CMAKE_CURRENT_SOURCE_DIR}/list.cpp
+  ${CMAKE_CURRENT_SOURCE_DIR}/list_internal.cpp
   ${CMAKE_CURRENT_SOURCE_DIR}/list.h
 )
 

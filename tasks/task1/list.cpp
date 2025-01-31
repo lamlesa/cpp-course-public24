@@ -71,25 +71,18 @@ void List::remove_front()
 
 void List::remove_back()
 {
-    if (first)
     {
-        if (first == last)
-        {
-            delete first;
-            first = last = nullptr;
-        }
-        else
-        {
-            Node* current = first;
-            while (current->next != last)
-            {
-                current = current->next;
-            }
-            delete last;
-            last = current;
-            last->next = nullptr;
-        }
+    if (is_empty()) return;
+    if (first == last) {
+        remove_first();
+        return;
     }
+    Node* p = first;
+    while (p->next != last) p = p->next;
+    p->next = nullptr;
+    delete last;
+    last = p;
+}
 }
 
 bool List::remove(const Node* _node)

@@ -1,0 +1,14 @@
+# Target labels
+ googletest-populate
+# Source files and their labels
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/googletest-populate
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/995278295a4a1860c505d32b0431cecf/googletest-populate.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/1efbf6e41d53a1e226b05972c64b2d09/googletest-populate-complete.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/f6badccf7508d296eab9f5773185d0dd/googletest-populate-build.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/f6badccf7508d296eab9f5773185d0dd/googletest-populate-configure.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/f6badccf7508d296eab9f5773185d0dd/googletest-populate-download.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/f6badccf7508d296eab9f5773185d0dd/googletest-populate-install.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/f6badccf7508d296eab9f5773185d0dd/googletest-populate-mkdir.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/f6badccf7508d296eab9f5773185d0dd/googletest-populate-patch.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/f6badccf7508d296eab9f5773185d0dd/googletest-populate-test.rule
+C:/Users/ламлеса/ПРОГА/repository/cpp-course-public24/tasks/task1/build1/_deps/googletest-subbuild/CMakeFiles/f6badccf7508d296eab9f5773185d0dd/googletest-populate-update.rule
