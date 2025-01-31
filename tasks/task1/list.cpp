@@ -94,32 +94,27 @@ void List::remove_back()
 
 bool List::remove(const Node* _node)
 {
-    bool flag = false;
-    if (!first || !_node) flag = false;
+    if (!first || !_node) return false;
 
-    if (first == _node)
-    {
+    if (first == _node) {
         remove_front();
-        flag = true;
+        return true;
     }
 
     Node* current = first;
-    while (current->next && current->next != _node)
-    {
+    while (current->next && current->next != _node) {
         current = current->next;
     }
 
-    if (current->next)
-    {
+    if (current->next) {
         Node* temp = current->next;
         current->next = current->next->next;
-        if (temp == last)
-        {
+        if (temp == last) {
             last = current;
         }
         delete temp;
-        flag = true;
+        return true;
     }
 
-    return flag;
+    return false;
 }
