@@ -1,4 +1,4 @@
-#include "list.hpp"
+#include "list.h"
 
 List::List() : first(nullptr), last(nullptr) {}
 
